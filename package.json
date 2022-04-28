@@ -1,6 +1,6 @@
 {
   "name": "please-update-dependencies",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Ensure that users of your package don't forget to run `npm install`.",
   "keywords": [
     "dependencies",
