@@ -83,7 +83,7 @@ function verify (mod) {
       }
 
       try {
-        depPkg = mod.require(path.join(name, './package'))
+        depPkg = mod.require(path.join(name, './package.json'))
       } catch (err) {
         console.error(ERROR, type, util.format(
           '%s is not installed',
