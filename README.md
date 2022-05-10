@@ -1,8 +1,8 @@
-# please-update-dependencies
+# @devicefarmer/please-update-dependencies
 
 [![npm](https://img.shields.io/npm/v/please-update-dependencies.svg)](https://www.npmjs.com/package/please-update-dependencies)
 
-**please-update-dependencies** is a useful addition to [Node.js](https://nodejs.org/) CLI applications. It checks that currently installed dependencies satisfy the requirements set in your `package.json`, and won't let the user continue till they've updated the dependencies.
+**@devicefarmer/please-update-dependencies** is a useful addition to [Node.js](https://nodejs.org/) CLI applications. It checks that currently installed dependencies satisfy the requirements set in your `package.json`, and won't let the user continue till they've updated the dependencies.
 
 ![Example](example.png?raw=true)
 
@@ -26,19 +26,19 @@
 Using [yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add please-update-dependencies
+yarn add @devicefarmer/please-update-dependencies
 ```
 
 Using [npm](https://www.npmjs.com/):
 
 ```sh
-npm install --save please-update-dependencies
+npm install --save @devicefarmer/please-update-dependencies
 ```
 
 Now, in your main file, before anything else, insert the following line:
 
 ```js
-require('please-update-dependencies')(module)
+require('@devicefarmer/please-update-dependencies')(module)
 ```
 
 

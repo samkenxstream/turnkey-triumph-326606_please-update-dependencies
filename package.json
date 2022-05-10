@@ -1,7 +1,7 @@
 {
-  "name": "please-update-dependencies",
-  "version": "2.0.0",
-  "description": "Ensure that users of your package don't forget to run `npm install`.",
+  "name": "@devicefarmer/please-update-dependencies",
+  "version": "2.0.1",
+  "description": "It checks that currently installed dependencies satisfy the requirements set in your package.json file",
   "keywords": [
     "dependencies",
     "update",
@@ -9,11 +9,19 @@
     "relief"
   ],
   "license": "Apache-2.0",
+  "author": {
+    "name": "DeviceFarmer",
+    "email": "contact@devicefarmer.com",
+    "url": "https://devicefarmer.com"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sorccu/please-update-dependencies.git"
+    "url": "https://github.com/devicefarmer/please-update-dependencies.git"
   },
   "main": "./index",
+  "scripts": {
+    "test": "node -e 'require(\"./index\")(module)'"
+  },
   "dependencies": {
     "chalk": "^1.1.3",
     "semver": "^5.3.0"
