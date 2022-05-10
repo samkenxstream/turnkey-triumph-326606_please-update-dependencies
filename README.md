@@ -1,6 +1,6 @@
 # @devicefarmer/please-update-dependencies
 
-[![npm](https://img.shields.io/npm/v/please-update-dependencies.svg)](https://www.npmjs.com/package/please-update-dependencies)
+[![npm](https://img.shields.io/npm/v/@devicefarmer/please-update-dependencies.svg)](https://www.npmjs.com/package/@devicefarmer/please-update-dependencies)
 
 **@devicefarmer/please-update-dependencies** is a useful addition to [Node.js](https://nodejs.org/) CLI applications. It checks that currently installed dependencies satisfy the requirements set in your `package.json`, and won't let the user continue till they've updated the dependencies.
 
